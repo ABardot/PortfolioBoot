@@ -13,79 +13,89 @@
     <script src="script.js"></script>
 </head>
     <body>
-           <div class="jumbotron">
-              <h1>Welcome to my profile page!</h1>
-           </div>
-            <!-- Sticky-top navbar -->
-            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-                <a class="navbar-brand" href="#">Adrien Bardot</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">Home</a>
+        <div class="jumbotron">
+            <h1>Welcome to my profile page!</h1>
+        </div>
+        <!-- Sticky-top navbar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <a class="navbar-brand" href="#">Adrien Bardot</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link disabled" href="#skill">SkillS</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                                <a class="nav-link disabled" href="#contact">Contact</a>
-                        </li>
-                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link disabled" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- About section -->
+        <div class="container">
+            <div class="row" id="about">
+                <div class="col-6 left">
+                    <img src="img/profile.png">
                 </div>
-            </nav>
-            <!-- About section -->
+                <div class="col-6 right">
+                    <h2>About</h2>
+                    <p>My name is Adrien, I am from Cleveland, Ohio. And I'm a Jr Software developer, currently I have some experience with 
+                        HTML&Bootstrap, CSS&Flexbox. Now I practice in the development of web applications, and some frameworks like the .Net, C#, etc. I want to 
+                        learn more and utilize my skills in the field of Information Technology and to help solve real world challenges.</p>
+                </div>
+            </div>
+        </div>
+        <section class="works scroll" id="works">
             <div class="container">
-                <div class="row" id="about">
-                    <div class="col-6 left">
-                        <img src="img/profile.png">
+                <h2 class="text-center">
+                    Portfolio projects
+                </h2>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <a href="https://github.com/ABardot/VirtualAndroidP3" target="_blank">
+                            <div class="block wow rotateInDownLeft"   data-wow-duration="1s" data-wow-delay="0.15s">
+                                <div class="works-thumb" id="work-1"></div>
+                                <div class="works-caption">Virtual Pet</div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-6 right">
-                        <h2>About</h2>
-                        <p>My name is Adrien, I am from Cleveland, Ohio. And I'm a Jr Software developer, currently I have some experience with 
-                            HTML&Bootstrap, CSS&Flexbox. Now I practice in the development of web applications, and some frameworks like the .Net, C#, etc. I want to 
-                            learn more and utilize my skills in the field of Information Technology and to help solve real world challenges.</p>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <a href="https://github.com/ABardot/VPShelter" target="_blank">
+                            <div class="block wow rotateInDownLeft"   data-wow-duration=".8s" data-wow-delay="0.3s">
+                                <div class="works-thumb" id="work-2"></div>
+                                <div class="works-caption">Android Shelter</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <a href="https://github.com/ABardot/TuscanyVillaP5" target="_blank">
+                            <div class="block wow rotateInDownLeft"   data-wow-duration=".8s" data-wow-delay="0.45s">
+                                <div class="works-thumb" id="work-3"></div>
+                                <div class="works-caption">Tuscany Villa</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
-            <section class="works scroll" id="works">
-                    <div class="container">
-                        <h2 class="text-center">
-                            Portfolio projects
-                        </h2>
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6 col-xs-12">
-                                <a href="https://codepen.io/akholod/full/GqWwPM/" target="_blank">
-                                    <div class="block wow rotateInDownLeft"   data-wow-duration="1s" data-wow-delay="0.15s">
-                                        <div class="works-thumb" id="work-1"></div>
-                                        <div class="works-caption">Virtual Pet</div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-12">
-                                <a href="https://akholod.github.io/weather-app/" target="_blank">
-                                    <div class="block wow rotateInDownLeft"   data-wow-duration=".8s" data-wow-delay="0.3s">
-                                        <div class="works-thumb" id="work-2"></div>
-                                        <div class="works-caption">Android Shelter</div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-12">
-                                <a href="https://codepen.io/akholod/full/YqopEQ/" target="_blank">
-                                    <div class="block wow rotateInDownLeft"   data-wow-duration=".8s" data-wow-delay="0.45s">
-                                        <div class="works-thumb" id="work-3"></div>
-                                        <div class="works-caption">Tuscany Villa</div>
-                                    </div>
-                                </a>
-                            </div>
-                           
-                        </div>
-                    </div>
-                </section>
-    </body>
+        </section> <!-- Portfolio End -->
+        <section>
+            
+
+
+
+        </section>
+    
+           
+     </body>
 </html>
