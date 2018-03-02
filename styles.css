@@ -2,9 +2,6 @@ body{
     padding: 0px;
 }
 
-
-
-
 .jumbotron{
     text-align:center;
     background:url('img/image1.png');
@@ -14,4 +11,21 @@ body{
     height: 550px;
 }
 
+#about{
+    background-color:#fff;
+    height: 500px;
+}
+
+img {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.col-6.right{
+    text-align: center;
+    margin-top: 100px;
+}
 
