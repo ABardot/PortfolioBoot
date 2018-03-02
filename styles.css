@@ -1,3 +1,8 @@
+body{
+    margin-top: 70px;
+}
+
+
 .navbar-default {
     background: #fff;
     border: 0;
@@ -7,4 +12,25 @@
     font-size: 20px;
     color: #000 !important;
     font-weight: bold;
+}
+
+div.jumbotron.hero-nature{
+    color:#000;
+    text-align:center;
+    background:url('img/image1.png');
+    background-size:cover;
+    background-position:center;
+    padding-top:20px;
+    height: 700px;
+}
+
+
+div.col-md-6.col-sm-6{
+ 
+}
+
+
+div.col-md-6.col-sm-6.img{
+ 
+    
 }
