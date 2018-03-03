@@ -136,8 +136,7 @@ a{
 .bg{
 	background: #f2efef;
     width: 700px;
-    
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .html{
@@ -154,7 +153,7 @@ a{
 		#008283 50%, #009999 50%,
 		#009999 75%, #008283 75%);
 	width: 78%;
-	height: 20px;
+	height: 40px;
 	padding: 10px 10px;
 	background-size: 50px 50px;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -250,4 +249,10 @@ a{
 	color: #fff;
 	font-size: 15px;
 	margin-top: 1px;
+}
+
+/* Contact */
+.row.contact-img{
+    background:url(img/image3.png);
+    background-size:cover;
 }
