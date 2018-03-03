@@ -8,7 +8,7 @@ body{
     background-size:cover;
     background-position:center;
     margin-bottom: 0px;
-    height: 850px;
+    height: 650px;
 }
 
 #about{
@@ -107,3 +107,8 @@ img {
 /* Portfolio End */
 
 /* Skills */
+.col.skills{
+    background-color: aqua;
+    height: 200px;
+}
+
