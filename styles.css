@@ -25,7 +25,7 @@ img {
     
 }
 
-.col-6.right{
+.col-6.about-right{
     text-align: center;
     margin-top: 150px;
 }
@@ -129,7 +129,7 @@ h3{
 }
 
 a{
-	color: #444;
+	color: slategrey;
 	text-decoration: none;
 }
 
@@ -252,13 +252,3 @@ a{
 }
 
 /* Contact */
-.container.contact{
-    height: 300px;
-    background: blue;
-}
-
-.row.contact-img{
-    /* background:url(img/image3.png);
-    background-size:cover; */
-}
-
