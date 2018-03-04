@@ -119,7 +119,7 @@ img {
 	border-radius: 20px;
 	padding: 50px 10px;
     margin: 0 auto;
-    height: 500px;
+    height: 350px;
    
 }
 
@@ -176,7 +176,7 @@ a{
 		#C0392B 50%, #E74C3C 50%,
 		#E74C3C 75%, #C0392B 75%);
 	width: 85%;
-	height: 20px;
+	height: 40px;
 	padding: 10px 10px;
 	background-size: 50px 50px;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -199,7 +199,7 @@ a{
 		#F39C12 50%, #F1C40F 50%,
 		#F1C40F 75%, #F39C12 75%);
 	width: 90%;
-	height: 20px;
+	height: 40px;
 	padding: 10px 10px;
 	background-size: 50px 50px;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -452,7 +452,9 @@ header {
 
 /* Social Media */
 
-  
+
+
+/* Social End */
 .footer{
     height: 100px;
     background-color: grey;

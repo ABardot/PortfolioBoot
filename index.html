@@ -15,172 +15,147 @@
 </head>
     <body>
            
-           <div class="jumbotron" id="home">
-              <h1>Welcome to my profile page!</h1>
-           </div>
+        <div class="jumbotron" id="home">
+            <h1>Welcome to my profile page!</h1>
+        </div>
 
-            <!-- Sticky-top navbar -->
-            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-                <a class="navbar-brand" href="#">Adrien Bardot</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#abouts">About</a>
-                        </li>
-                       <li class="nav-item">
-                            <a class="nav-link disabled" href="#portfolios">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                                <a class="nav-link disabled" href="#contacts">Contact</a>
-                        </li>
-                    </ul>
+        <!-- Sticky-top navbar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <a class="navbar-brand" href="#">Adrien Bardot</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#abouts">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#portfolios">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link disabled" href="#contacts">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- About section -->
+        <div class="container" id="abouts">
+            <div class="row" id="about">
+                <div class="col-6">
+                    <img src="img/profile.png">
                 </div>
-            </nav>
-
-            <!-- About section -->
-            <div class="container" id="abouts">
-                <div class="row" id="about">
-                    <div class="col-6">
-                        <img src="img/profile.png">
+                <div class="col-6 about-right">
+                    <h2>About</h2>
+                    <p>My name is Adrien, I am from Cleveland, Ohio. And I'm a Jr Software developer, currently I have some experience with 
+                        HTML&Bootstrap, CSS&Flexbox. Now I practice in the development of web applications, and some frameworks like the .Net, C#, etc. I want to 
+                        learn more and utilize my skills in the field of Information Technology and to help solve real world challenges.</p>
+                </div>
+            </div>
+        </div>
+        <section class="works scroll" id="portfolios">
+            <div class="container">
+                <h2 class="text-center">
+                    Portfolio
+                </h2>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <a href="https://github.com/ABardot/VirtualAndroidP3" target="_blank">
+                            <div class="block wow rotateInDownLeft"   data-wow-duration="1s" data-wow-delay="0.15s">
+                                <div class="works-thumb" id="work-1"></div>
+                                <div class="works-caption">Virtual Pet</div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-6 about-right">
-                        <h2>About</h2>
-                        <p>My name is Adrien, I am from Cleveland, Ohio. And I'm a Jr Software developer, currently I have some experience with 
-                            HTML&Bootstrap, CSS&Flexbox. Now I practice in the development of web applications, and some frameworks like the .Net, C#, etc. I want to 
-                            learn more and utilize my skills in the field of Information Technology and to help solve real world challenges.</p>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <a href="https://github.com/ABardot/VPShelter" target="_blank">
+                            <div class="block wow rotateInDownLeft"   data-wow-duration=".8s" data-wow-delay="0.3s">
+                                <div class="works-thumb" id="work-2"></div>
+                                <div class="works-caption">Android Shelter</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <a href="https://github.com/ABardot/TuscanyVillaP5" target="_blank">
+                            <div class="block wow rotateInDownLeft"   data-wow-duration=".8s" data-wow-delay="0.45s">
+                                <div class="works-thumb" id="work-3"></div>
+                                <div class="works-caption">Tuscany Villa</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
-            <section class="works scroll" id="portfolios">
-                <div class="container">
-                    <h2 class="text-center">
-                        Portfolio
-                    </h2>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <a href="https://github.com/ABardot/VirtualAndroidP3" target="_blank">
-                                <div class="block wow rotateInDownLeft"   data-wow-duration="1s" data-wow-delay="0.15s">
-                                    <div class="works-thumb" id="work-1"></div>
-                                    <div class="works-caption">Virtual Pet</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <a href="https://github.com/ABardot/VPShelter" target="_blank">
-                                <div class="block wow rotateInDownLeft"   data-wow-duration=".8s" data-wow-delay="0.3s">
-                                    <div class="works-thumb" id="work-2"></div>
-                                    <div class="works-caption">Android Shelter</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <a href="https://github.com/ABardot/TuscanyVillaP5" target="_blank">
-                                <div class="block wow rotateInDownLeft"   data-wow-duration=".8s" data-wow-delay="0.45s">
-                                    <div class="works-thumb" id="work-3"></div>
-                                    <div class="works-caption">Tuscany Villa</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section> <!-- Portfolio End -->
+        </section> <!-- Portfolio End -->
 
-            <!-- skills -->
-            <div class="container" id="skills">  
-                <div class="row">   
-                    <div class="col skills">
-                            <div class="box">	
-                                   <h3>Skills</h3>
-                                    
-                                    <div class="bg">
-                                    <div class="html">
-                                        <span class="left">HTML</span>
-                                        <span class="right">78%</span>
-                                    </div>
-                                    </div>
-                                <br>
-                                    <div class="bg">
-                                    <div class="css">
-                                        <span class="left">css</span>
-                                        <span class="right">85%</span>
-                                    </div>
-                                    </div>
-                                <br>
-                                    <div class="bg">
-                                    <div class="php">
-                                        <span class="left">php</span>
-                                        <span class="right">90%</span>
-                                    </div>
-                                    </div>
-                                <br>
-                                    <div class="bg">
-                                    <div class="php">
-                                        <span class="left">php</span>
-                                        <span class="right">90%</span>
-                                    </div>
-                                    </div>
-                                </div>
+        <!-- skills -->
+        <div class="container" id="skills">  
+            <div class="row">   
+                <div class="col skills">
+                        <div class="box">	
+                                <h3>Skills</h3>
                                 
-                                 
+                                <div class="bg">
+                                <div class="html">
+                                    <span class="left">C#/>net</span>
+                                    
+                                    
+                                </div>
+                                </div>
+                            <br>
+                                <div class="bg">
+                                <div class="css">
+                                    <span class="left">HTML5/CSS</span>
+                                    
+                                </div>
+                                </div>
+                            <br>
+                                <div class="bg">
+                                <div class="php">
+                                    <span class="left">FLEXBOX/BOOTSTRAP</span>
+                                    
+                                </div>
+                                </div>
                             
+                            </div>
+                            
+                                
+                        
 
+                </div>
+            </div>
+        </div><!-- Skills end -->
+
+        <!-- Contact -->
+        <div class="jumbotron contact" id="contacts">
+            <div class="row contact-img">
+                <div class="col contact-box">
+                    <div class="row">
+                        <div class="col-6">
+                            <form id="form" class="topBefore">
+                                <input id="name" type="text" placeholder="NAME">
+                                <input id="email" type="text" placeholder="E-MAIL">
+                                <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+                                <input id="submit" type="submit" value="GO!">
+                            </form>
+                        </div>
+                        <div class="col-6">
+                           
+                        </div>
                     </div>
                 </div>
-            </div><!-- Skills end -->
-
-            <!-- Contact -->
-            <div class="jumbotron contact" id="contacts">
-                  
-                <div class="row contact-img">
-                    <div class="col contact-box">
-                            <div class="row">
-                                    <div class="col-6">
-                                        <form id="form" class="topBefore">
-                                                <input id="name" type="text" placeholder="NAME">
-                                                <input id="email" type="text" placeholder="E-MAIL">
-                                                <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-                                                <input id="submit" type="submit" value="GO!">
-                                        </form>
-                                    </div>
-                                    <div class="col-6">
-                                       
-
-
-                                    </div>
-                                  </div>
-
-
-
-
-                    </div>
-                </div>
-            </div><!--Contact end-->
-            <footer class="footer">
-                <p>Adrien Bardot WCCI 2018</p>
-            </footer>
-
-
+            </div>
+        </div><!--Contact end-->
+        <footer class="footer">
+            <p>Adrien Bardot WCCI 2018</p>
+        </footer>
      </body>
 </html>
 
 
-<!-- <div class="col-sm-6">
-        <form id="form" class="topBefore">
-                <input id="name" type="text" placeholder="NAME">
-                <input id="email" type="text" placeholder="E-MAIL">
-                <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-                <input id="submit" type="submit" value="GO!">
-        </form>
-    </div>
-    <div class="col-sm-6">
-        <p>Hello world</p>
-    </div> -->
