@@ -252,3 +252,16 @@ a{
 }
 
 /* Contact */
+.jumbotron{
+    text-align:center;
+    background:url('img/image3.png');
+    background-size:cover;
+   
+}
+
+
+.footer{
+    height: 100px;
+    padding-top: 100px;
+    background-color: grey;
+}

@@ -13,7 +13,7 @@
     <script src="script.js"></script>
 </head>
     <body>
-           <div class="jumbotron">
+           <div class="jumbotron" id="home">
               <h1>Welcome to my profile page!</h1>
            </div>
 
@@ -29,23 +29,23 @@
                             <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link" href="#abouts">About</a>
+                        </li>
+                       <li class="nav-item">
+                            <a class="nav-link disabled" href="#portfolios">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link disabled" href="#skill">SkillS</a>
-                            </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#portfolio">Portfolio</a>
+                            <a class="nav-link disabled" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link disabled" href="#contact">Contact</a>
+                                <a class="nav-link disabled" href="#contacts">Contact</a>
                         </li>
                     </ul>
                 </div>
             </nav>
 
             <!-- About section -->
-            <div class="container">
+            <div class="container" id="abouts">
                 <div class="row" id="about">
                     <div class="col-6">
                         <img src="img/profile.png">
@@ -58,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            <section class="works scroll" id="works">
+            <section class="works scroll" id="portfolios">
                 <div class="container">
                     <h2 class="text-center">
                         Portfolio
@@ -93,7 +93,7 @@
             </section> <!-- Portfolio End -->
 
             <!-- skills -->
-            <div class="container">  
+            <div class="container" id="skills">  
                 <div class="row">   
                     <div class="col skills">
                             <div class="box">	
@@ -136,8 +136,8 @@
             </div><!-- Skills end -->
 
             <!-- Contact -->
-            <div class="container" id="contact">
-                <div class="row contact contact-img">
+            <div class="jumbotron" id="contacts">
+                <div class="row contact-img">
                     <div class="col skills">
                       <div class="col-6 contact-left">
 
@@ -148,7 +148,9 @@
                     </div>
                 </div>
             </div><!--Contact end-->
-            
+            <footer class="footer">
+
+            </footer>
 
 
      </body>
