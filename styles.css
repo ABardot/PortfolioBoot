@@ -9,26 +9,37 @@ body{
     background-position:center;
     margin-bottom: 0px;
     height: 650px;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Bangers', cursive;
 }
 
 .navbar-brand{
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Bangers', cursive;
 }
 
 .nav-link{
     color: grey;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Bangers', cursive;
 }
 
 .active a:hover { 
     background-color: #e0ebeb;
+   
 }
 
 
 #about{
     background-color:#fff;
     height: 500px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+h2{
+    font-family: 'Bangers', cursive;
+}
+
+h3{
+    font-family: 'Caveat', cursive;
 }
 
 img {
@@ -138,10 +149,12 @@ img {
    
 }
 
-h3{
-	
-	text-align: center;
+.box h2{
+	font-family: 'Bangers', cursive;
+    text-align: center;
+    padding-bottom: 20px;
 }
+
 
 a{
 	color: slategrey;
@@ -261,9 +274,10 @@ a{
 
 .left{
 	float: left;
-	color: #fff;
+	color: #000;
 	font-size: 15px;
-	margin-top: 1px;
+    margin-top: 1px;
+    font-family: 'Shadows Into Light Two', cursive;
 }
 
 /* Contact */
@@ -586,4 +600,5 @@ header {
     text-align: center;
     padding-top: 40px;
     color: #000;
+    font-family: 'Shadows Into Light Two', cursive;
 }
