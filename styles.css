@@ -9,7 +9,22 @@ body{
     background-position:center;
     margin-bottom: 0px;
     height: 650px;
+    font-family: 'Permanent Marker', cursive;
 }
+
+.navbar-brand{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nav-link{
+    color: grey;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.active a:hover { 
+    background-color: #e0ebeb;
+}
+
 
 #about{
     background-color:#fff;
@@ -455,19 +470,19 @@ header {
 
 
 /* Social Media */
-ul {
+.social {
     list-style: none;
     padding-top: 75px;
   }
   
-  li {
+  .social li {
     position: relative;
     display: inline-block;
     line-height: 80px;
     
   }
   
-  li a {
+  .social li a {
     position: absolute;
     top: 0;
     left: 0;
@@ -477,7 +492,7 @@ ul {
   }
   
   /* Front */
-  li span {
+  .social li span {
       display: inline-block;
       width: 80px;
       color: #f5f5f5;
@@ -559,6 +574,12 @@ ul {
   }
 
 /* Social End */
+
+/* Landing text */
+
+
+
+/* Landing text end */
 .footer{
     height: 100px;
     background-color: grey;
