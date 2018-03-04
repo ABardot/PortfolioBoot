@@ -130,7 +130,7 @@ h3{
 
 a{
 	color: #444;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .bg{
@@ -252,7 +252,13 @@ a{
 }
 
 /* Contact */
-.row.contact-img{
-    background:url(img/image3.png);
-    background-size:cover;
+.container.contact{
+    height: 300px;
+    background: blue;
 }
+
+.row.contact-img{
+    /* background:url(img/image3.png);
+    background-size:cover; */
+}
+
